@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa</title>
+
+</head>
+<body>
+    <form>
+        <fieldset style="background-color: rgb(228, 218, 218); border-width: 5px;">
+            <legend style="background-color: rgb(255, 255, 255);">Pesquisa de satisfação</legend>
+                
+                <fieldset style="border-width: 5px;">
+
+                <h2>O que você achou do site?</h2>
+                <input type="radio" name="'pesquisa" id="pesquisa" value="muitoBom">Muito bom
+                <input type="radio" name="'pesquisa" id="pesquisa" value="bom">Bom
+                <input type="radio" name="'pesquisa" id="pesquisa" value="regular">Regular
+                <input type="radio" name="'pesquisa" id="pesquisa" value="lixo">Lixo
+                </fieldset>
+                <br>
+                
+                <fieldset style="border-width: 5px;">
+                <h2>Qual a seção que você mais gostou?</h2>
+                <select name="secao" id="secao">
+                    <option value=""></option>
+                    <option value="emCartaz">Em cartaz</option>
+                    <option value="emStreaming">Em streaming</option>
+                    <option value="teatro">Em teatro</option>
+
+                </select>
+                
+
+                <label for="outros">Outros</label>
+                <input type="text" name="outros" id="outros">
+                </fieldset>
+
+
+                <fieldset style="border-width: 5px; border-top: 10px;">
+                <h3 style="margin-left: 100px;">Digite seus comentarios no campo abaixo:</h2>
+                <textarea style="resize: none; margin-left: 100px;" name="comentario" id="comentario" cols="50" rows="5"></textarea>
+
+                    <fieldset style="border-width: 5px">
+                    <h2>Diga-nos como entrar em contato com você:</h2>
+                    <pre style="font-size: larger; font-family: 'Lucida Sans'">
+                        Nome:<input type="text" name="nome" id="nome">
+                        E-mail:<input type="text" name="email" id="email">
+                        Telefone:<input type="text" name="fone" id="telefone">
+                    </fieldset>
+                
+                
+                </fieldset>
+                
+            
+                </pre>
+                <br>
+               
+               <input type="checkbox" name="novidades" id="novidades">Quero receber as novidades
+                <br>
+                <input type="submit" value="Enviar Dados" name="enviarDados">
+                <input type="reset" value="Limpar Formulario" name="limpar">
+                <input type="button" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')" value="Mostrar Mensagem" name="mensagem">
+
+
+        </fieldset>
+    </form>
+
+    <script>
+        
+
+
+    </script>
+
+</body>
+</html>
