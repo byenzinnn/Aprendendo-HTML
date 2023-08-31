@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    
+    <hr>
+
+    <h1>HTML Formularios</h1>
+
+    <hr>
+
+    <form action>
+
+        <fieldset style="border-width: 10px">
+        
+        <fieldset style="border: groove; border-width: 10px;">
+
+        <label for="nome">Nome:</label>
+        <input type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome">
+
+               
+            <p><label for="">Sobrenome:</label>
+        <input type="text" 
+            name="sobrenome" 
+            id="sobrenome" 
+            placeholder="Digite o seu sobrenome"></p>
+
+        
+            <p><label for="password">Password</label>
+        <input type="password"
+            name="password"
+            id="Password"
+            placeholder="Digite a senha"></p>
+
+            <p><label for="email">Email</label>
+                <input type="email" 
+                    name="email" 
+                    id="email"
+                    placeholder="Digite o seu email">
+
+            <p><label for="data">Data</label>
+                <input type="datetime-local"
+                name="data"
+                id="data">
+            </p>
+            
+            </fieldset>
+            
+            <p><label for="arquivo">Selecione um arquivo</label>
+                <input type="file" 
+                name="arquivo" 
+                id="arquivo">
+            </p>
+
+            <p><label for="mensagem">Digite sua mensagem</label><br>
+                <textarea name="mensagem"
+                    id="mensagem"
+                    cols="30"
+                    rows="10"></textarea>
+            </p>
+
+            <p><select name="estados" id="estados">
+                    <option value=""></option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rs">Rio Grande do Sul</option>
+
+                </select>
+            </p>
+            
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Feminino
+        
+        
+        <hr>
+            
+            <p><h20>Conteudos do Curso</h20></p>
+        
+            <input type="radio" name="disciplina" value="c#">C#
+            <input type="radio" name="disciplina" value="ingles">Inglês
+            <input type="radio" name="disciplina" value="banco de dados">Banco de Dados
+            <input type="radio" name="disciplina" value="GitHub">GitHub
+        
+        <input type="checkbox" name="filmes" value="filmes">Filmes
+        <input type="checkbox" name="Esportes" value="esportes">Esportes
+        <input type="checkbox" name="livros" value="livros">Livros
+        
+        
+        <hr>
+
+        <input type="submit" value="Enviar Dados">
+        <input type="reset" value="Limpar dados">
+        <input type="button" value="Botão Generico" onclick="alert('olá mundo')">
+    </form>
+    
+    </fieldset>
+
+</body>
+</html>
