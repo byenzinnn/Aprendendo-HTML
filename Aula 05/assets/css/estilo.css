@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.sombra {
+
+  -webkit-text-fill-color:#323b2e;  
+
+    text-shadow: 1px -2px 10px rgb(219, 45, 45),
+                 2px 3px 20px rgb(47, 47, 226);
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+
+    background: 
+    linear-gradient(#d5ecd8 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #071ef1, #00ee0c) border-box;
+  color: #313149;
+  padding: 10px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 75px 0;
+    
+}
+
+.box-model {
+
+    border-top: 2px groove rgb(0, 0, 0);
+    border-bottom: 2px groove rgb(94, 94, 224);
+    border-right: 2px groove rgb(113, 99, 240);
+    border-left: 2px groove black;
+
+    background: 
+    linear-gradient(#f3f0fd 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #ff0000, #04fff2) border-box;
+  color: #fd098f;
+  padding: 50px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 75px 0;
+  font-size: 20px;
+
+}
+
+.div1 {
+
+    text-shadow: 5px 5px 15px rgb(53, 253, 3),
+                 2px 3px 15px rgb(0, 0, 240);
+
+}
+
+p:hover {
+
+  background-color: rgb(0, 255, 85);
+  color:rgb(0, 0, 0)
+
+}
