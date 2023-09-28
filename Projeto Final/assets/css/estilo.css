@@ -1,0 +1,116 @@
+* {
+    font-family: 'Gabarito', cursive;
+    text-align: center;
+    align-items: center;
+
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+
+}
+
+.opcoes {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(49, 49, 47);
+    border: none;
+    border-radius: 5px;
+    
+
+}
+
+
+
+
+/* -------- EDIÇÃO DOS BOTOES --------*/
+.cssbuttons-io {
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    border-radius: 0.8em;
+    border: none;
+    background: linear-gradient(to right, #000000, #777575);
+    color: ghostwhite;
+    overflow: hidden;
+}
+
+.cssbuttons-io svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+}
+
+.cssbuttons-io span {
+    position: relative;
+    z-index: 10;
+    transition: color 1s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    z-index: 0;
+}
+
+.cssbuttons-io::before {
+    content: "";
+    background: #080808;
+    width: 125%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.3s cubic-bezier(0.3, 1, 0.8, 1);
+    transition-delay: 0.1s;
+}
+
+.cssbuttons-io:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+    transform: scale(0.95);
+}
+
+.apresentacao {
+    background-color: #3d3c3c;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+.h5 {
+    background-color: #5f5f5f;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    padding-left: 35px;
+    text-align: left;
+    
+}  
+
+/* ----- INICIO DOS CARDS ----- 
+
+   ----- CARDS DE AÇÃO ----- */
+
